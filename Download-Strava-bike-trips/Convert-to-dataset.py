@@ -4,7 +4,6 @@ import pandas as pd
 from shapely.geometry import LineString
 import json
 import datetime
-import time
 import os
 import glob
 
