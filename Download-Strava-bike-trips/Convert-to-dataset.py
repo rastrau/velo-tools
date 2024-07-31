@@ -54,7 +54,7 @@ gdf = pd.concat(all_activities)
 
 # Save GeoDataFrame to geopackage file
 file_name = 'strava-rides.gpkg'
-file_path = os.path.join(os.path.dirname(os.path.abspath(__file__), file_name)
+file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), file_name)
 print('\nSaving in %s...' % file_path)
 gdf.to_file(file_path, 
             layer='strava-rides-until-%s' %
